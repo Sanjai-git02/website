@@ -25,8 +25,6 @@ This project is a web-based travel guide showcasing the most beautiful and affor
 
 -ScrollReveal.js (for animations)
 
-## Project Images
-<h3>Landing Page</h3> <img src="assets/landing_page.png" alt="Landing Page" width="500"/> <h3>Spot Filter Section</h3> <img src="assets/spot_filter.png" alt="Spot Filter" width="500"/> <h3>Client Testimonials Section</h3> <img src="assets/testimonials.png" alt="Client Testimonials" width="500"/>
 
 ## How It Works
 -The homepage welcomes users with a dynamic title and background.
