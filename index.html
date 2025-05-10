@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style1.css">
+    <title>https://www.brandcrowd.com/blog/wp-content/uploads/2019/05/main-pic.jpg Free Travel Guide| Travelty</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <a href="#">Travelty</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#spots">spots</a></li>
+          <li class="link"><a href="#service">Service</a></li>
+          <li class="link"><a href="#client">Client</a></li>
+          <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn">Sign Up</button>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>The Most Beautiful<br />Places In The<br />Tamilnadu</h1>
+      </div>
+    </header>
+
+    <div class="wrapper" id="spots">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search product name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Chennai')">
+          Chennai
+        </button>
+        <button class="button-value" onclick="filterProduct('Madurai')">
+          Madurai
+        </button>
+        <button class="button-value" onclick="filterProduct('kanyakumari')">
+          kanyakumari
+        </button>
+        <button class="button-value" onclick="filterProduct('ooty')">
+          ooty
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
+   
+
+    <section class="section__container service__container" id="service">
+      <h3 class="section__subheader">OUR SERVICE :present an enticing list of must-visit destinations in Tamil Nadu, complete with estimated costs for an unforgettable journey through these incredible locales
+      </h3>
+      <h2 class="section__header">We provide top destination for you</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="assets/path.jpg" alt="service" />
+          <div class="service__content">
+            <h4>Tailor-Made Experiences for Your Perfect Getaway</h4>
+            <p>Customized Itineraries</p>
+            <div class="service__card__footer">
+              <div class="service__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <div class="service__price">$30 per day</div>
+            </div>
+          </div>
+        </div>
+        <div class="service__card">
+          <img src="assets/rameshwaram.jpg" alt="service" />
+          <div class="service__content">
+            <h4>Explore with Confidence, Led by Local Experts</h4>
+            <p>Travelty Guided Tours</p>
+            <div class="service__card__footer">
+              <div class="service__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <div class="service__price">$25 per day</div>
+            </div>
+          </div>
+        </div>
+        <div class="service__card">
+          <img src="assets/kodaikanal.jpeg" alt="service" />
+          <div class="service__content">
+            <h4>Hassle-Free Organization for a Stress-Free Vacation</h4>
+            <p>Seamless Travel Planning</p>
+            <div class="service__card__footer">
+              <div class="service__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <div class="service__price">$40 per day</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="client__image">
+       
+      </div>
+      <div class="client__content">
+        <h3 class="section__subheader">TESTIMONIALS</h3>
+        <h2 class="section__header">What our client says</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  I lack extensive knowledge about tourist spots in Tamil Nadu, and guided tours can often be quite costly.
+                   However, through the Travelty website, I have been able to explore numerous destinations within my budget, 
+                   enabling me to enjoy my travels without overspending.
+                   I truly appreciate the valuable resources and information provided by Travelty; 
+                   they have significantly enhanced my travel experience  !
+                </p>
+                <div class="client__details">
+                  <img src="assets/user-1 (1).jpg" alt="client" />
+                  <div>
+                    <h4>Robert Chang</h4>
+                    <h5>Software Developer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Thanks to the seamless travel planning service, my vacation
+                  was stress-free from start to finish. Everything was planned
+                  meticulously, leaving me with more time to enjoy the
+                  destination without worrying about the details.
+                </p>
+                <div class="client__details">
+                  <img src="assets/user-2 (1).jpg" alt="client" />
+                  <div>
+                    <h4>Emily Rodriguez</h4>
+                    <h5>Financial Analyst</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  The suggested spots were fantastic, with precise daily price estimates.
+                   Travelty has been an invaluable resource, making my travel planning easy and enjoyable. I would definitely recommend it to everyone!
+                </p>
+                <div class="client__details">
+                  <img src="assets/user-3.jpg" alt="client" />
+                  <div>
+                    <h4>Michael Anderson</h4>
+                    <h5>Marketing Executive</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="client-swiper-btns">
+            <div class="swiper-prev"><i class="ri-arrow-left-line"></i></div>
+            <div class="swiper-next"><i class="ri-arrow-right-line"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="banner__wrapper">
+        <div class="banner__card">
+          <img src="assets\swiper2.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>KODAIKANAL</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              Kodaikanal, a hill station paradise, enchants with misty valleys, serene lakes, and lush greenery.
+              A perfect escape into nature’s embrace, offering breathtaking mountain views.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets/seashore.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>MAHABALIPURAM</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              Mahabalipuram, a UNESCO gem, enchants with its ancient rock-cut temples and breathtaking Shore Temple.
+              A perfect blend of history, art, and coastal beauty, where every stone tells a story.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets\swiper1.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>BEACH</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              The world’s most stunning beaches beckon with golden sands, crystal-clear waters, and vibrant sunsets.
+              A paradise for relaxation, adventure, and unforgettable coastal beauty.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets\swiper.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>NILGIRI'S</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              From the iconic Table Mountain and historic Robben Island to the
+              scenic Cape Winelands, this South African gem offers a blend of
+              natural beauty, history, and modern sophistication.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets/tanjore.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>TANJORE</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              The grand temples of Thanjore, like the Brihadeeswarar Temple, showcase towering spires and exquisite carvings that captivate the soul
+              .These sacred sites echo the glory of ancient Tamil culture.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets/rameshwaram.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>RAMESHWARAM</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              Rameswaram, a sacred haven, captivates with its spiritual significance and coastal beauty. 
+              A journey through temples,beaches, and divine tranquility awaits at this holy isle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container newsletter__container" id="contact">
+      <div class="newsletter__content">
+        <h2 class="section__header">Sign Up to our Newsletter</h2>
+        <p class="section__description">
+          Join our community of avid travelers and receive regular doses of
+          wanderlust straight to your inbox.
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Enter Your Email" />
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#home">Travelty</a>
+          </div>
+          <p>
+            Discover a world of endless possibilities as we curate the best in
+            travel, from hidden gems to iconic landmarks.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-pinterest-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Explore Destinations</a></li>
+            <li><a href="#">Exclusive Offers</a></li>
+            <li><a href="#">Travel Tips & Guides</a></li>
+            <li><a href="#">Book Your Adventure</a></li>
+            <li><a href="#">Join our Community</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Customer Support</a></li>
+            <li><a href="#">Business Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 sanjai . All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
