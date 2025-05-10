@@ -51,7 +51,7 @@ This project is a web-based travel guide showcasing the most beautiful and affor
 ## Installation
 Clone the repository:
 
--git clone https://github.com/Sanjai-git02/travelty-website.git
+-git clone (https://github.com/Sanjai-git02/website.git)
 
 Open the project folder.
 
